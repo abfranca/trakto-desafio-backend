@@ -25,7 +25,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Teste
 
 Com a aplicação em execução, acesse o endereço http://localhost:3000/api. Clique no botão Try it out correspondente ao endpoint /image/save, preencha o body da requisição conforme especificado abaixo e clique no botão Execute.
 
