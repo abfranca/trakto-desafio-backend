@@ -1,5 +1,5 @@
 package-lock.json
-/imgs/*
+*.jpg
 
 # compiled output
 /dist

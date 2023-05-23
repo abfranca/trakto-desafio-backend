@@ -8,8 +8,8 @@ let ExifImage = require('exif').ExifImage;
 const downloadImage = async (url: URL, quality: number) => {
   const names = url.toString().split('/');
   const name = names[names.length - 1].split('.')[0];
-  const originalPath = `./imgs/${name}.jpg`;
-  const thumbPath = `./imgs/${name}_thumb.jpg`;
+  const originalPath = `./${name}.jpg`;
+  const thumbPath = `./${name}_thumb.jpg`;
 
   const response = await fetch(url);
   const blob = await response.blob();
